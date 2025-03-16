@@ -89,6 +89,12 @@ Após criar o seu Pull Request, nossa automação irá validar a sua submissão.
 | `test`         | Adiciona ou modifica testes no projeto.                              | `test: add unit test for UserService`
 
 
+ 
+ | `clone`        | Clona um repositório remoto existente no GitHub para o seu ambiente local. | `git clone url-do-repositorio-no-github`
+ | `init`         | Inicializa um novo repositório Git no diretório atual.               | `git init`
+ | `pull`         | Atualiza a branch local main com as mudanças do repositório remoto origin. Combina git fetch e git merge.  | `git pull origin main`
+
+
 ## Referências
 - [ANGULAR. Contributing to Angular](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md)
 - [CONVENTIONAL COMMITS. Summary](https://www.conventionalcommits.org/en/v1.0.0/)
